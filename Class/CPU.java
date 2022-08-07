@@ -63,7 +63,6 @@ public class CPU {
         }else if(verifySequence(sequence_6)){
             return "paper";
         }else if(verifySequence(sequence_7)){
-            System.out.println("sequence!");
             return "rock";
         }
         return AVAILABLE_CHOICES[random.nextInt(AVAILABLE_CHOICES.length)];
