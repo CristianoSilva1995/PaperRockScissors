@@ -48,24 +48,24 @@ public class GUI extends JFrame{
         this.CPUChoice.setText(CPUchoice);
     }
 
-    public void setCPUWinsCount(JLabel CPUWinsCount) {
-        this.CPUWinsCount = CPUWinsCount;
+    public void setCPUWinsCount(int winsCount) {
+        this.CPUWinsCount.setText(""+winsCount);
     }
 
     public JLabel getPlayerWinsCount() {
         return playerWinsCount;
     }
 
-    public void setPlayerWinsCount(JLabel playerWinsCount) {
-        this.playerWinsCount = playerWinsCount;
+    public void setPlayerWinsCount(int winsCount) {
+        this.playerWinsCount.setText(""+winsCount);
     }
 
     public JLabel getRoundWinner() {
         return roundWinner;
     }
 
-    public void setRoundWinner(JLabel roundWinner) {
-        this.roundWinner = roundWinner;
+    public void setRoundWinner(String winner) {
+        this.roundWinner.setText(winner);
     }
 
     public JButton getRockBtn() {
